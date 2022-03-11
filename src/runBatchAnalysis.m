@@ -25,7 +25,7 @@ doSigOnly                 = 0;
 
 %% Directory config
 if workingOnServer == 1
-    HOME_DIR = '/home/bhalla/ananthamurthy/';
+    HOME_DIR = '/home/bhalla/ananthamurthy/';z
     saveDirec = strcat(HOME_DIR, 'Work/Analysis/Imaging/');
 elseif workingOnServer == 2
     HOME_DIR = '/home/ananth/Documents/';
