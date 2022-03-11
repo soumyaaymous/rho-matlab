@@ -42,7 +42,8 @@ end
 % clear space
 
 %% Dataset
-nDatasets = 1;
+make_dbSoumya_single
+nDatasets = lengh(db);
 
 if workingOnServer
     saveDirec = strcat(HOME_DIR, 'Work/Analysis/Imaging/');
@@ -136,7 +137,7 @@ mFOutput_batch = repmat(s, 1, nDatasets);
 clear s
 
 %% Main script
-make_dbase
+% make_dbase
 for runi = 1: 1: nDatasets
     fprintf('Currently analyzing dataset: %i\n', runi)
     
